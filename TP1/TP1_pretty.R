@@ -8,9 +8,12 @@ library(plotly)
 library(usethis)
 
 #We import the data in the attached excel document making sure that the absorbency and time columns are set as numeric and the concentration as character
-
-
+library(readxl)
+Data_TP1_FQC_tidy <- read_excel("Data_TP1_FQC_tidy.xlsx", 
+                                col_types = c("numeric", "numeric", "text"))
 View(Data_TP1_FQC_tidy)
+
+
 
 
 #we need the logarithms of the absorbency so we will add that column to the dataset
@@ -71,13 +74,20 @@ Plot_logs_vs_time<-ggplot(data = Data_TP1_FQC_tidy_with_logs,
   summary(lm_0.25M)
   
   #We are interested in the slope of the linear regressions, which are equal to -k', so we will now make a table with these values for each concentration
+  #For this we need the actual concentrations of the NaOH solutions made in the lab
+  Mass_of_NaOH_mg<-c(97.9,200.9,302.2,424.1,495.9)
+  mMoles_of_NaOH<-Mass_of_NaOH_mg/40
+  Concentration_of_NaOH_solutions<-mMoles_of_NaOH/50
   
-  Data_TP1_NaOH_K<-data.frame("Concentration of NaOH"=c(0.05, 0.10,0.15,0.20,0.25),
+  Data_TP1_NaOH_K<-data.frame("Concentration of NaOH"=Concentration_of_NaOH_solutions,
                               "K prime value"=c(coef(lm_0.05M)[2],coef(lm_0.1M)[2],coef(lm_0.15M)[2],coef(lm_0.2M)[2],coef(lm_0.25M)[2])*-1)
 view(Data_TP1_NaOH_K)
 
 #now we plot the concentration of NaOH vs K' for different values of m, to do this we need to plot
 #with m=0, k'=k; with m=1, k'~[OH-]; with m=2, k'~[OH-]^2
+
+
+
 
 Data_TP1_NaOH_K_squared<-Data_TP1_NaOH_K %>% 
   mutate("Concentration of NaOH squared"=Concentration.of.NaOH^2)
@@ -106,7 +116,7 @@ summary(lm_NaOH_vs_k_m1)
 
 print(coef(lm_NaOH_vs_k_m1)[2])
 
-#the value of k is then 0.0157 L*mol^-1*s^-1 =0.9419 L*mol^-1*min^-1 
+#the value of k is then 0.0154 L*mol^-1*s^-1 =0.9268 L*mol^-1*min^-1 
 
 
 #Guia de Preguntas y Discusi´on
