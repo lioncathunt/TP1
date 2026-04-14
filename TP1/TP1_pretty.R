@@ -83,42 +83,9 @@ Plot_logs_vs_time<-ggplot(data = Data_TP1_FQC_tidy_with_logs,
                               "K prime value"=c(coef(lm_0.05M)[2],coef(lm_0.1M)[2],coef(lm_0.15M)[2],coef(lm_0.2M)[2],coef(lm_0.25M)[2])*-1)
 view(Data_TP1_NaOH_K)
 
-#now we plot the concentration of NaOH vs K' for different values of m, to do this we need to plot
-#with m=0, k'=k; with m=1, k'~[OH-]; with m=2, k'~[OH-]^2
 
 
-
-
-Data_TP1_NaOH_K_squared<-Data_TP1_NaOH_K %>% 
-  mutate("Concentration of NaOH squared"=Concentration.of.NaOH^2)
-view(Data_TP1_NaOH_K_squared)
-
-plot_NaOH_k_m1<-ggplot(data = Data_TP1_NaOH_K_squared,
-                    aes(x=Concentration.of.NaOH,
-                        y=K.prime.value))+
-  geom_point()+
-  geom_smooth(method = lm, se = F)
-
-plot_NaOH_k_m1
-
-plot_NaOH_k_m2<-ggplot(data = Data_TP1_NaOH_K_squared,
-                       aes(x=`Concentration of NaOH squared`,
-                           y=K.prime.value))+
-  geom_point()+
-  geom_smooth(method = "lm", formula = y~poly(x,2), se=F)
-plot_NaOH_k_m2
-
-lm_NaOH_vs_k_m1<-lm(Data_TP1_NaOH_K_squared$K.prime.value~Data_TP1_NaOH_K_squared$Concentration.of.NaOH)
-
-summary(lm_NaOH_vs_k_m1)
-
-#since m=1 and k'=k[OH-] the slope of the linear regression of this plot is equal to k therefore we can extract this coefficient from the linear model to get our value of k.
-
-print(coef(lm_NaOH_vs_k_m1)[2])
-
-#the value of k is then 0.0154 L*mol^-1*s^-1 =0.9268 L*mol^-1*min^-1 
-
-#what happens if we get the value of m and the value of k from applying logs
+#we get the value of m and the value of k from applying logs
 #to both sides of k'=k[OH]^m
 #we get ln(k')=ln(k)+m*ln([OH-]) then if we plot ln(k')vsln([OH-]) we get
 
