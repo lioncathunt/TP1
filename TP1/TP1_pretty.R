@@ -119,10 +119,10 @@ print(coef(lm_NaOH_vs_k_m1)[2])
 #the value of k is then 0.0154 L*mol^-1*s^-1 =0.9268 L*mol^-1*min^-1 
 
 
-#Guia de Preguntas y Discusi´on
-#1. ¿Por qu´e la reacci´on se considera de pseudo-primer orden respecto a la fenolftale´ına?
-#2. ¿Qu´e efecto tiene la fuerza i´onica constante en los resultados? Explicar en t´erminos de interacciones i´onicas.
-#3. ¿Por qu´e es importante retirar la cubeta del espectrofot´ometro entre mediciones?
+#Guia de Preguntas y Discusion
+#1. ¿Por que la reaccion se considera de pseudo-primer orden respecto a la fenolftaleına?
+#2. ¿Que efecto tiene la fuerza ionica constante en los resultados? Explicar en terminos de interacciones ionicas.
+#3. ¿Por que es importante retirar la cubeta del espectrofotometro entre mediciones?
 #4. Comparar el valor de k obtenido con el reportado en la literatura. Analizar posibles fuentes de error.
-#5. Proponga un mecanismo de reacci´on coherente con los ´ordenes determinados.
+#5. Proponga un mecanismo de reaccion coherente con los ordenes determinados.
                       
