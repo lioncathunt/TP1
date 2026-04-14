@@ -146,6 +146,7 @@ print((exp(coef(lm_plot_logs)[1]))*60)
 #m is equal to the slope = 1.23863
 #Guia de Preguntas y Discusion
 #1. ¿Por que la reaccion se considera de pseudo-primer orden respecto a la fenolftaleına?
+  
   # Se considera de pseudo-primer orden respecto a la fenolftalina 
   # porque la concentracion de NaOH es tan grande en comparación que se puede tomar como constante.
 
