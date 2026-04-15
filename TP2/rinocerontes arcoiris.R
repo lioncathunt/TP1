@@ -6,12 +6,15 @@ k<-(1)
 dt<-0.001
 R0<-100
 t0<-0
+
 R_list<-c(R0)
-t_list<-c(t0)*
+t_list<-c(t0)
+v_list<-c(v0)
+  
 R=R0
 t=t0
 v0=k*R0
-v_list<-c(v0)
+
 
 for (i in 1:5000){
 dR<- -k*R*dt
@@ -136,14 +139,6 @@ ggplot(data=data_list_TP2_A2,
 
 ggplot(data=data_list_TP2_A2,
        aes(x=t_list,
-           y=S_list))+
-  geom_point(size=1, color="magenta4")+
-  theme_bw()
-
-
-
-ggplot(data=data_list_TP2_A2,
-       aes(x=t_list,
            y=v_list))+
   geom_point(size=1, color="cyan4")+
   theme_bw()
@@ -152,9 +147,100 @@ ggplot(data=data_list_TP2_A2,
 #Actividad 3: Reacciones oscilatorias
 
 
+A0=1
+B0=3
+dt=0.005
+k1=1
+k2=1
+k3=1
+k4=1
+t0=0
+dt=0.005
+
+t=t0
+A=A0
+B=B0
+D=0
+E=0
+X=0
+Y=0
+
+t_list<-c(t0)
+A_list<-c(A0)
+B_list<-c(B0)
+D_list<-c(0)
+E_list<-c(0)
+X_list<-c(0)
+Y_list<-c(0)
+
+for (i in 1:10000) {
+  dA=-k1*A*dt
+  A=A+dA
+  A_list<-c(A_list, A)
+  
+  dB=-k3*B*X*dt
+  B=B+dB
+  B_list<-c(B_list, B)
+  
+  dD=k3*B*X*dt
+  D=D+dD
+  D_list<-c(D_list, D)
+  
+  dE=k4*X*dt
+  E=E+dE
+  E_list<-c(E_list, E)
+  
+  dX=(k1*A+k2*(X ^ 2)*Y-k3*B*X-k4*X)*dt
+  X=X+dX
+  X_list<-c(X_list, X)
+  
+  dY=(-k2*(X ^ 2)*Y+k3*B*X)*dt
+  Y=Y+dY
+  Y_list<-c(Y_list, Y)
+  
+  t=t+dt
+  t_list<-c(t_list, t)
+
+}
+
+data_list_TP2_A3<-data.frame(A_list, B_list, X_list, Y_list, D_list, E_list, t_list)
+View(data_list_TP2_A3)
+
+ggplot(data=data_list_TP2_A3,
+       aes(x=t_list, 
+           y=A_list))+
+  geom_point(size=1, color="deepskyblue")+
+  theme_bw()
+
+ggplot(data=data_list_TP2_A3,
+       aes(x=t_list,
+           y=B_list))+
+  geom_point(size=1, color="deeppink2")+
+  theme_bw()
 
 
+ggplot(data=data_list_TP2_A3,
+       aes(x=t_list,
+           y=D_list))+
+  geom_point(size=1, color="darkorchid3")+
+  theme_bw()
 
 
+ggplot(data=data_list_TP2_A3,
+       aes(x=t_list,
+           y=E_list))+
+  geom_point(size=1, color="midnightblue")+
+  theme_bw()
 
 
+ggplot(data=data_list_TP2_A3,
+       aes(x=t_list,
+           y=Y_list))+
+  geom_point(size=1, color="yellowgreen")+
+  theme_bw()
+
+ggplot(data=data_list_TP2_A3,
+       aes(x=t_list,
+           y=X_list))+
+  geom_point(size=1, color="firebrick3")+
+  theme_bw()
