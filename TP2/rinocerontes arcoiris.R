@@ -146,7 +146,6 @@ ggplot(data=data_list_TP2_A2,
 
 #Actividad 3: Reacciones oscilatorias
 
-
 A0=1
 B0=3
 dt=0.005
@@ -156,22 +155,24 @@ k3=1
 k4=1
 t0=0
 dt=0.005
+X0=0
+Y0=0
 
 t=t0
 A=A0
 B=B0
 D=0
 E=0
-X=0
-Y=0
+X=X0
+Y=Y0
 
 t_list<-c(t0)
 A_list<-c(A0)
 B_list<-c(B0)
 D_list<-c(0)
 E_list<-c(0)
-X_list<-c(0)
-Y_list<-c(0)
+X_list<-c(X0)
+Y_list<-c(Y0)
 
 for (i in 1:10000) {
   dA=-k1*A*dt
@@ -243,4 +244,13 @@ ggplot(data=data_list_TP2_A3,
        aes(x=t_list,
            y=X_list))+
   geom_point(size=1, color="firebrick3")+
+  theme_bw()
+
+
+#grafica X vs Y
+
+ggplot(data=data_list_TP2_A3,
+       aes(x=X_list,
+           y=Y_list))+
+  geom_point(size=1, color="orchid")+
   theme_bw()
