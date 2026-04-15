@@ -114,6 +114,7 @@ print((exp(coef(lm_plot_logs)[1]))*60)
 
 
 #Guia de Preguntas y Discusion
+
 #1. ¿Por que la reaccion se considera de pseudo-primer orden respecto a la fenolftaleına?
   
   # Se considera de pseudo-primer orden respecto a la fenolftalina 
@@ -123,7 +124,7 @@ print((exp(coef(lm_plot_logs)[1]))*60)
 #2. ¿Que efecto tiene la fuerza ionica constante en los resultados? Explicar en terminos de interacciones ionicas.
 
   # La velocidad de decoloracion aumenta con la fuerza ionica debido a que la reaccion involucra el
-#acercamiento de dos iones cargados negativamente y su repulsion disminuye en un ambiente que contiene iones inertes.
+  #acercamiento de dos iones cargados negativamente y su repulsion disminuye en un ambiente que contiene iones inertes.
 
 #3. ¿Por que es importante retirar la cubeta del espectrofotometro entre mediciones?
 
