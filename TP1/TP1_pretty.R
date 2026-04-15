@@ -120,16 +120,18 @@ print((exp(coef(lm_plot_logs)[1]))*60)
 
 #2. ¿Que efecto tiene la fuerza ionica constante en los resultados? Explicar en terminos de interacciones ionicas.
 
-  # La fuerza iónica es importante para que la concentración de NaOH para asegurarnos que las interacciones iónicas 
-  # entre las diferentes concentración influyan en la misma medida.
+  # La velocidad de decoloracion aumenta con la fuerza ionica debido a que la reaccion involucra el
+#acercamiento de dos iones cargados negativamente y su repulsion disminuye en un ambiente que contiene iones inertes.
 
 #3. ¿Por que es importante retirar la cubeta del espectrofotometro entre mediciones?
 
-  #
+  #Es importante retirar la cubeta del espectrofotometro entre mediciones porque puede aumentar la temperatura 
+  #de la solucion por estar en el haz de luz del equipo y la velocidad de la reaccion depende de la temperatura.
+
 
 #4. Comparar el valor de k obtenido con el reportado en la literatura. Analizar posibles fuentes de error.
 
-  # Nos dió 0.9268 L.mol-1min-1 m mientras que en la literatura es de 1.1 L.mol−1.min−1. 
+  # Nos dió 1.243 L.mol-1min-1 m mientras que en la literatura es de 1.1 L.mol−1.min−1. 
   # Las fuentes de error pudieron haber sido las preparaciones de las soluciones de NaOH y NaCl 
   # pudiendo generarse errores de pesada. 
   # 
