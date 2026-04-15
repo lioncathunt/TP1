@@ -111,6 +111,8 @@ print(coef(lm_plot_logs)[2])
 print((exp(coef(lm_plot_logs)[1]))*60)
 
 #m is equal to the slope = 1.23863
+
+
 #Guia de Preguntas y Discusion
 #1. ¿Por que la reaccion se considera de pseudo-primer orden respecto a la fenolftaleına?
   
@@ -126,7 +128,7 @@ print((exp(coef(lm_plot_logs)[1]))*60)
 #3. ¿Por que es importante retirar la cubeta del espectrofotometro entre mediciones?
 
   #Es importante retirar la cubeta del espectrofotometro entre mediciones porque puede aumentar la temperatura 
-  #de la solucion por estar en el haz de luz del equipo y la velocidad de la reaccion depende de la temperatura.
+  #de la solucion por estar en el haz de luz del equipo y modificaria la velocidad de la reaccion puesto que depende de la temperatura.
 
 
 #4. Comparar el valor de k obtenido con el reportado en la literatura. Analizar posibles fuentes de error.
@@ -138,5 +140,5 @@ print((exp(coef(lm_plot_logs)[1]))*60)
 
 #5. Proponga un mecanismo de reaccion coherente con los ordenes determinados.
 
-  #
+  # A + B --> P 
                       
