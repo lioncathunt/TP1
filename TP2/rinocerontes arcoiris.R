@@ -54,16 +54,55 @@ ggplot(data=data_list_TP2,
   geom_point(size=1, color="purple")+
   theme_bw()
 
-#Calculo para una reaccion de orden 2
+#Calculo para una reaccion de orden 2 vamos a definir las variables con un 1c ya q ue corresponde a la actividad 1c
+
+k_1c<-(1)
+dt_1c<-0.001
+R0_1c<-100
+t0_1c<-0
+v0_1c=k_1c*R0_1c^2
+
+R_list_1c<-c(R0_1c)
+t_list_1c<-c(t0_1c)
+v_list_1c<-c(v0_1c)
+
+R_1c=R0_1c
+t_1c=t0_1c
 
 
-data_list_R_orden_dos<-data_list_TP2 %>% 
-  mutate(R_list_cuadrado=R_list^2, v_list_segudo_orden=k*R_list_cuadrado)
-view(data_list_R_orden_dos)
+for (i in 1:5000){
+  dR_1c<- -2*k_1c*(R_1c^2)*dt_1c
+  R_1c<-R_1c+dR_1c
+  R_list_1c<-c(R_list_1c,R_1c)
+  t_1c<-t_1c+dt_1c
+  t_list_1c<-c(t_list_1c,t_1c)
+  v_1c=k_1c*R_1c^2
+  v_list_1c<-c(v_list_1c,v_1c)
+}
 
+data_list_TP2_act_1c<-data.frame(R_list_1c, t_list_1c, v_list_1c,
+                                 R_list_squared=R_list_1c^2,
+                                 R_list_inverse=1/R_list_1c)
 
+view(data_list_TP2_act_1c)
 
+ggplot(data = data_list_TP2_act_1c,
+       aes(x=R_list_1c,
+           y=v_list_1c))+
+  geom_point(size=1, color="palevioletred2")+
+  theme_bw()
 
+ggplot(data = data_list_TP2_act_1c,
+       aes(x=R_list_squared,
+           y=v_list_1c))+
+  geom_point(size=1, color="coral2")+
+  theme_bw()
+         
+ggplot(data = data_list_TP2_act_1c,
+       aes(x=t_list_1c,
+           y=R_list_inverse))+
+  geom_point(size=1, color="darkolivegreen3")+
+  theme_bw()
 
 #Compare los graficos que se obtienen cambiando “dt” a 0.01 y 0.1. ¿Que ocurre
 #si aumenta “dt” a un valor relativamente grande, por ejemplo, 2?
@@ -124,6 +163,17 @@ for (i in 1:5000){
 data_list_TP2_A2<-data.frame(E_list, S_list, ES_list, P_list, t_list, v_list)
 view(data_list_TP2_A2)
 
+linear_model_of_S_vs_t<-lm(data_list_TP2_A2$S_list~data_list_TP2_A2$t_list,
+                           data = data_list_TP2_A2,
+                           subset = t_list>0.05)
+
+summary(linear_model_of_S_vs_t)
+
+#la regresion lineal de la parte lineal es:  [S]=9.991e+02-9.490e-02t, si buscamos el valor de t para el que [S]=0.95[S_0] tenemos
+
+cat("El tiempo al que la concentracion de sustrato es el 95% de la inicial es:", ((0.95*S0-coef(linear_model_of_S_vs_t)[1])/coef(linear_model_of_S_vs_t)[2]),"segundos"
+)
+#para ver como cambia esto con kp=10 se volvio a correr la seccion del script correspondiente cambiando la variable kp y el valor obtenido por la linea anterior es: 5.219329 segundos
 
 ggplot(data=data_list_TP2_A2,
        aes(x=t_list, 
