@@ -6,6 +6,7 @@ k<-(1)
 dt<-0.001
 R0<-100
 t0<-0
+v0=k*R0
 
 R_list<-c(R0)
 t_list<-c(t0)
@@ -13,7 +14,6 @@ v_list<-c(v0)
   
 R=R0
 t=t0
-v0=k*R0
 
 
 for (i in 1:5000){
@@ -49,12 +49,20 @@ ggplot(data=data_list_TP2,
 
 
 ggplot(data=data_list_TP2,
-       aes(x=v_list, 
-           y=R_list))+
+       aes(x=R_list, 
+           y=v_list))+
   geom_point(size=1, color="purple")+
   theme_bw()
 
-#calcular lo mismo para una reaccion de orden 2
+#Calculo para una reaccion de orden 2
+
+
+data_list_R_orden_dos<-data_list_TP2 %>% 
+  mutate(R_list_cuadrado=R_list^2, v_list_segudo_orden=k*R_list_cuadrado)
+view(data_list_R_orden_dos)
+
+
+
 
 
 #Compare los graficos que se obtienen cambiando “dt” a 0.01 y 0.1. ¿Que ocurre
@@ -254,3 +262,6 @@ ggplot(data=data_list_TP2_A3,
            y=Y_list))+
   geom_point(size=1, color="orchid")+
   theme_bw()
+
+
+
