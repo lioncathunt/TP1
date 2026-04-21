@@ -118,7 +118,7 @@ S0=1000
 dt=0.00005
 kf=1
 kr=1
-kp=0.1
+kp=10
 t0=0
 
 E_list<-c(E0)
@@ -212,7 +212,6 @@ k2=1
 k3=1
 k4=1
 t0=0
-dt=0.005
 X0=0
 Y0=0
 
@@ -249,11 +248,11 @@ for (i in 1:10000) {
   E=E+dE
   E_list<-c(E_list, E)
   
-  dX=(k1*A+k2*(X ^ 2)*Y-k3*B*X-k4*X)*dt
+  dX=(k1*A+k2*(X^2)*Y-k3*B*X-k4*X)*dt
   X=X+dX
   X_list<-c(X_list, X)
   
-  dY=(-k2*(X ^ 2)*Y+k3*B*X)*dt
+  dY=(-k2*(X^2)*Y+k3*B*X)*dt
   Y=Y+dY
   Y_list<-c(Y_list, Y)
   

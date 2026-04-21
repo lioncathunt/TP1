@@ -1,0 +1,725 @@
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 1 E  -1.467044847272
+  H      -0.000000     -0.000000      0.000000
+  H       0.600000      0.000000     -0.000000
+  H      -0.600000      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 2 E  -1.535318735457
+  H       0.066667     -0.000000     -0.000000
+  H       0.666667      0.000000      0.000000
+  H      -0.733333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 3 E  -1.565015947324
+  H       0.066667     -0.000000      0.000000
+  H       0.666667      0.000000     -0.000000
+  H      -0.933333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 4 E  -1.581913715477
+  H       0.066667      0.000000     -0.000000
+  H       0.666667     -0.000000      0.000000
+  H      -1.133333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 5 E  -1.592518367687
+  H       0.066667     -0.000000      0.000000
+  H       0.666667      0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 6 E  -1.599165288674
+  H       0.066667      0.000000     -0.000000
+  H       0.666667     -0.000000      0.000000
+  H      -1.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 7 E  -1.603183911343
+  H       0.066667      0.000000     -0.000000
+  H       0.666667     -0.000000      0.000000
+  H      -1.733333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 8 E  -1.605515500736
+  H       0.066667      0.000000      0.000000
+  H       0.666667     -0.000000     -0.000000
+  H      -1.933333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 9 E  -1.606822549212
+  H       0.066667      0.000000      0.000000
+  H       0.666667     -0.000000     -0.000000
+  H      -2.133333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 10 E  -1.607537696504
+  H       0.066667      0.000000     -0.000000
+  H       0.666667     -0.000000      0.000000
+  H      -2.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 11 E  -1.607922691468
+  H       0.066667      0.000000     -0.000000
+  H       0.666667     -0.000000      0.000000
+  H      -2.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 12 E  -1.535318758529
+  H      -0.733333      0.000000     -0.000000
+  H       0.066667     -0.000000      0.000000
+  H      -1.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 13 E  -1.583262411970
+  H       0.066667      0.000000     -0.000000
+  H       0.866667     -0.000000      0.000000
+  H      -0.733333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 14 E  -1.597112391802
+  H       0.066667      0.000000     -0.000000
+  H       0.866667     -0.000000      0.000000
+  H      -0.933333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 15 E  -1.604661323440
+  H       0.066667      0.000000     -0.000000
+  H       0.866667     -0.000000      0.000000
+  H      -1.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 16 E  -1.610523251534
+  H       0.066667      0.000000     -0.000000
+  H       0.866667     -0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 17 E  -1.614891667799
+  H       0.066667     -0.000000      0.000000
+  H       0.866667      0.000000     -0.000000
+  H      -1.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 18 E  -1.617827158868
+  H       0.066667      0.000000     -0.000000
+  H       0.866667     -0.000000      0.000000
+  H      -1.733333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 19 E  -1.619644291840
+  H       0.066667      0.000000     -0.000000
+  H       0.866667     -0.000000      0.000000
+  H      -1.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 20 E  -1.620708340951
+  H       0.066667      0.000000      0.000000
+  H       0.866667     -0.000000     -0.000000
+  H      -2.133333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 21 E  -1.621310182417
+  H       0.066667      0.000000     -0.000000
+  H       0.866667     -0.000000      0.000000
+  H      -2.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 22 E  -1.621643310080
+  H       0.066667      0.000000      0.000000
+  H       0.866667     -0.000000     -0.000000
+  H      -2.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 23 E  -1.565015947324
+  H      -0.733333     -0.000000     -0.000000
+  H       0.266667      0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 24 E  -1.597112388897
+  H       0.066667      0.000000      0.000000
+  H       1.066667     -0.000000     -0.000000
+  H      -0.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 25 E  -1.594395517161
+  H       0.066667      0.000000     -0.000000
+  H       1.066667     -0.000000      0.000000
+  H      -0.933333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 26 E  -1.589548466080
+  H       0.066667     -0.000000      0.000000
+  H       1.066667      0.000000     -0.000000
+  H      -1.133333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 27 E  -1.588200674550
+  H       0.066667     -0.000000      0.000000
+  H       1.066667      0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 28 E  -1.588952580377
+  H       0.066667      0.000000     -0.000000
+  H       1.066667     -0.000000      0.000000
+  H      -1.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 29 E  -1.590225522592
+  H       0.066667      0.000000     -0.000000
+  H       1.066667     -0.000000      0.000000
+  H      -1.733333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 30 E  -1.591309241175
+  H       0.066667      0.000000     -0.000000
+  H       1.066667     -0.000000      0.000000
+  H      -1.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 31 E  -1.592052766786
+  H       0.066667      0.000000     -0.000000
+  H       1.066667     -0.000000      0.000000
+  H      -2.133333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 32 E  -1.592513966828
+  H       0.066667      0.000000      0.000000
+  H       1.066667     -0.000000     -0.000000
+  H      -2.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 33 E  -1.592785031550
+  H       0.066667      0.000000      0.000000
+  H       1.066667     -0.000000     -0.000000
+  H      -2.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 34 E  -1.581913731846
+  H      -0.733333     -0.000000      0.000000
+  H       0.466667      0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 35 E  -1.604661323441
+  H       0.066667     -0.000000      0.000000
+  H       1.266667      0.000000     -0.000000
+  H      -0.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 36 E  -1.589548466081
+  H       0.066667      0.000000     -0.000000
+  H       1.266667     -0.000000      0.000000
+  H      -0.933333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 37 E  -1.572584924200
+  H       0.066667      0.000000     -0.000000
+  H       1.266667     -0.000000      0.000000
+  H      -1.133333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 38 E  -1.562425177805
+  H       0.066667      0.000000     -0.000000
+  H       1.266667     -0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 39 E  -1.557504546573
+  H       0.066667      0.000000     -0.000000
+  H       1.266667     -0.000000      0.000000
+  H      -1.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 40 E  -1.555346976184
+  H       0.066667      0.000000     -0.000000
+  H       1.266667     -0.000000      0.000000
+  H      -1.733333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 41 E  -1.554471592424
+  H       0.066667      0.000000      0.000000
+  H       1.266667     -0.000000     -0.000000
+  H      -1.933333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 42 E  -1.554152473361
+  H       0.066667      0.000000     -0.000000
+  H       1.266667     -0.000000      0.000000
+  H      -2.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 43 E  -1.554059230388
+  H       0.066667      0.000000     -0.000000
+  H       1.266667     -0.000000      0.000000
+  H      -2.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 44 E  -1.554047856768
+  H       0.066667     -0.000000      0.000000
+  H       1.266667      0.000000     -0.000000
+  H      -2.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 45 E  -1.592518382290
+  H      -0.733333      0.000000     -0.000000
+  H       0.666667     -0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 46 E  -1.610523250259
+  H       0.066667      0.000000      0.000000
+  H       1.466667     -0.000000     -0.000000
+  H      -0.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 47 E  -1.588200674547
+  H       0.066667      0.000000      0.000000
+  H       1.466667     -0.000000     -0.000000
+  H      -0.933333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 48 E  -1.562425177810
+  H       0.066667      0.000000     -0.000000
+  H       1.466667     -0.000000      0.000000
+  H      -1.133333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 49 E  -1.545458335590
+  H       0.066667      0.000000     -0.000000
+  H       1.466667     -0.000000      0.000000
+  H      -1.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 50 E  -1.536116154027
+  H       0.066667      0.000000     -0.000000
+  H       1.466667     -0.000000      0.000000
+  H      -1.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 51 E  -1.531160582401
+  H       0.066667      0.000000     -0.000000
+  H       1.466667     -0.000000      0.000000
+  H      -1.733333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 52 E  -1.528540107665
+  H       0.066667      0.000000     -0.000000
+  H       1.466667     -0.000000      0.000000
+  H      -1.933333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 53 E  -1.527155002101
+  H       0.066667     -0.000000      0.000000
+  H       1.466667      0.000000     -0.000000
+  H      -2.133333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 54 E  -1.526425504302
+  H       0.066667      0.000000     -0.000000
+  H       1.466667     -0.000000      0.000000
+  H      -2.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 55 E  -1.526042242586
+  H       0.066667      0.000000     -0.000000
+  H       1.466667     -0.000000      0.000000
+  H      -2.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 56 E  -1.599165302246
+  H      -0.733333      0.000000     -0.000000
+  H       0.866667      0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 57 E  -1.614891667812
+  H       0.066667      0.000000     -0.000000
+  H       1.666667     -0.000000      0.000000
+  H      -0.733333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 58 E  -1.588952580381
+  H       0.066667      0.000000      0.000000
+  H       1.666667     -0.000000     -0.000000
+  H      -0.933333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 59 E  -1.557504546580
+  H       0.066667      0.000000     -0.000000
+  H       1.666667     -0.000000      0.000000
+  H      -1.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 60 E  -1.536116154022
+  H       0.066667     -0.000000      0.000000
+  H       1.666667      0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 61 E  -1.524295960529
+  H       0.066667      0.000000      0.000000
+  H       1.666667     -0.000000     -0.000000
+  H      -1.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 62 E  -1.517991848443
+  H       0.066667     -0.000000      0.000000
+  H       1.666667      0.000000     -0.000000
+  H      -1.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 63 E  -1.514643918371
+  H       0.066667      0.000000     -0.000000
+  H       1.666667     -0.000000      0.000000
+  H      -1.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 64 E  -1.512870614394
+  H       0.066667     -0.000000      0.000000
+  H       1.666667      0.000000     -0.000000
+  H      -2.133333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 65 E  -1.511935773169
+  H       0.066667      0.000000      0.000000
+  H       1.666667     -0.000000     -0.000000
+  H      -2.333333     -0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 66 E  -1.511444350646
+  H       0.066667      0.000000      0.000000
+  H       1.666667     -0.000000     -0.000000
+  H      -2.533333     -0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 67 E  -1.603183911350
+  H      -0.733333      0.000000     -0.000000
+  H       1.066667     -0.000000      0.000000
+  H      -1.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 68 E  -1.617827158878
+  H       0.066667      0.000000     -0.000000
+  H       1.866667     -0.000000      0.000000
+  H      -0.733333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 69 E  -1.590225522601
+  H       0.066667      0.000000     -0.000000
+  H       1.866667     -0.000000      0.000000
+  H      -0.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 70 E  -1.555346976192
+  H       0.066667      0.000000     -0.000000
+  H       1.866667     -0.000000      0.000000
+  H      -1.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 71 E  -1.531160582402
+  H       0.066667      0.000000     -0.000000
+  H       1.866667     -0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 72 E  -1.517991848465
+  H       0.066667     -0.000000      0.000000
+  H       1.866667      0.000000     -0.000000
+  H      -1.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 73 E  -1.511024304591
+  H       0.066667     -0.000000      0.000000
+  H       1.866667      0.000000     -0.000000
+  H      -1.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 74 E  -1.507342218082
+  H       0.066667      0.000000     -0.000000
+  H       1.866667     -0.000000      0.000000
+  H      -1.933333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 75 E  -1.505398953410
+  H       0.066667      0.000000     -0.000000
+  H       1.866667     -0.000000      0.000000
+  H      -2.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 76 E  -1.504377254424
+  H       0.066667      0.000000     -0.000000
+  H       1.866667     -0.000000      0.000000
+  H      -2.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 77 E  -1.503841245720
+  H       0.066667      0.000000      0.000000
+  H       1.866667     -0.000000     -0.000000
+  H      -2.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 78 E  -1.605515500756
+  H      -0.733333     -0.000000      0.000000
+  H       1.266667      0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 79 E  -1.619644294812
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -0.733333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 80 E  -1.591309241177
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -0.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 81 E  -1.554471592426
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -1.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 82 E  -1.528540107663
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 83 E  -1.514643918376
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -1.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 84 E  -1.507342218081
+  H       0.066667     -0.000000      0.000000
+  H       2.066667      0.000000     -0.000000
+  H      -1.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 85 E  -1.503498661648
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -1.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 86 E  -1.501475609681
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -2.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 87 E  -1.500414020450
+  H       0.066667     -0.000000      0.000000
+  H       2.066667      0.000000     -0.000000
+  H      -2.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 88 E  -1.499857903458
+  H       0.066667      0.000000     -0.000000
+  H       2.066667     -0.000000      0.000000
+  H      -2.533333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 89 E  -1.606822561614
+  H      -0.733333      0.000000      0.000000
+  H       1.466667      0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 90 E  -1.620708344093
+  H       0.066667      0.000000     -0.000000
+  H       2.266667     -0.000000      0.000000
+  H      -0.733333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 91 E  -1.592052766796
+  H       0.066667      0.000000     -0.000000
+  H       2.266667     -0.000000      0.000000
+  H      -0.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 92 E  -1.554152473361
+  H       0.066667      0.000000      0.000000
+  H       2.266667     -0.000000     -0.000000
+  H      -1.133333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 93 E  -1.527155002102
+  H       0.066667      0.000000     -0.000000
+  H       2.266667     -0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 94 E  -1.512870614401
+  H       0.066667      0.000000      0.000000
+  H       2.266667     -0.000000     -0.000000
+  H      -1.533333     -0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 95 E  -1.505398953416
+  H       0.066667      0.000000      0.000000
+  H       2.266667     -0.000000     -0.000000
+  H      -1.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 96 E  -1.501475609680
+  H       0.066667      0.000000     -0.000000
+  H       2.266667     -0.000000      0.000000
+  H      -1.933333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 97 E  -1.499413970298
+  H       0.066667      0.000000     -0.000000
+  H       2.266667     -0.000000      0.000000
+  H      -2.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 98 E  -1.498333431529
+  H       0.066667      0.000000     -0.000000
+  H       2.266667     -0.000000      0.000000
+  H      -2.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 99 E  -1.497767924393
+  H       0.066667      0.000000     -0.000000
+  H       2.266667     -0.000000      0.000000
+  H      -2.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 100 E  -1.607537708781
+  H      -0.733333     -0.000000     -0.000000
+  H       1.666667      0.000000      0.000000
+  H      -1.333333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 101 E  -1.621310185655
+  H       0.066667      0.000000     -0.000000
+  H       2.466667     -0.000000      0.000000
+  H      -0.733333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 102 E  -1.592513966832
+  H       0.066667      0.000000     -0.000000
+  H       2.466667     -0.000000      0.000000
+  H      -0.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 103 E  -1.554059230391
+  H       0.066667      0.000000     -0.000000
+  H       2.466667     -0.000000      0.000000
+  H      -1.133333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 104 E  -1.526425504304
+  H       0.066667     -0.000000      0.000000
+  H       2.466667      0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 105 E  -1.511935773173
+  H       0.066667      0.000000     -0.000000
+  H       2.466667     -0.000000      0.000000
+  H      -1.533333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 106 E  -1.504377254423
+  H       0.066667     -0.000000      0.000000
+  H       2.466667      0.000000     -0.000000
+  H      -1.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 107 E  -1.500414020444
+  H       0.066667      0.000000     -0.000000
+  H       2.466667     -0.000000      0.000000
+  H      -1.933333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 108 E  -1.498333431521
+  H       0.066667      0.000000      0.000000
+  H       2.466667     -0.000000     -0.000000
+  H      -2.133333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 109 E  -1.497243744535
+  H       0.066667      0.000000     -0.000000
+  H       2.466667     -0.000000      0.000000
+  H      -2.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 110 E  -1.496673791131
+  H       0.066667      0.000000     -0.000000
+  H       2.466667     -0.000000      0.000000
+  H      -2.533333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 111 E  -1.607922703683
+  H      -0.733333      0.000000      0.000000
+  H       1.866667     -0.000000     -0.000000
+  H      -1.333333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 112 E  -1.621643313371
+  H       0.066667      0.000000      0.000000
+  H       2.666667     -0.000000     -0.000000
+  H      -0.733333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 113 E  -1.592785031552
+  H       0.066667     -0.000000      0.000000
+  H       2.666667      0.000000     -0.000000
+  H      -0.933333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 114 E  -1.554047856760
+  H       0.066667      0.000000     -0.000000
+  H       2.666667     -0.000000      0.000000
+  H      -1.133333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 115 E  -1.526042242585
+  H       0.066667      0.000000     -0.000000
+  H       2.666667     -0.000000      0.000000
+  H      -1.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 116 E  -1.511444350646
+  H       0.066667     -0.000000      0.000000
+  H       2.666667      0.000000     -0.000000
+  H      -1.533333      0.000000     -0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 117 E  -1.503841245717
+  H       0.066667      0.000000     -0.000000
+  H       2.666667     -0.000000      0.000000
+  H      -1.733333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 118 E  -1.499857903450
+  H       0.066667      0.000000     -0.000000
+  H       2.666667     -0.000000      0.000000
+  H      -1.933333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 119 E  -1.497767924400
+  H       0.066667      0.000000     -0.000000
+  H       2.666667     -0.000000      0.000000
+  H      -2.133333      0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 120 E  -1.496673791149
+  H       0.066667      0.000000     -0.000000
+  H       2.666667     -0.000000      0.000000
+  H      -2.333333     -0.000000      0.000000
+>
+3
+Coordinates from ORCA-job scanHHH180 Relaxed Surface Scan Step 121 E  -1.496101730806
+  H       0.066667      0.000000      0.000000
+  H       2.666667     -0.000000     -0.000000
+  H      -2.533333      0.000000     -0.000000
