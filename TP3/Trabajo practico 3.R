@@ -1,7 +1,7 @@
 library(tidyverse)
 library(reshape2)
 library(plotly)
-
+library(readxl)
 
 
 
@@ -11,6 +11,8 @@ View(output_HHH180_orca_TP3)
 output_HHH135_orca_TP3 <- read_excel("Resultados orca HHH135/output HHH135 orca TP3.xlsx")
 View(output_HHH135_orca_TP3)
 
+output_HHH90_orca_TP3 <- read_excel("Resultados orca HHH90/output HHH90 orca TP3.xlsx")
+View(output_HHH90_orca_TP3)
 
 
 # Grafico 180 -------------------------------------------------------------
@@ -93,3 +95,7 @@ fig_135 <- plot_ly(x = ~d_h1h2, y = ~d_h1h3, z = ~z_matrix135) %>%
 fig_135
 
 
+# Grafico 90 --------------------------------------------------------------
+
+z_matrix90<-acast(output_HHH90_orca_TP3, dH1H2 ~ dH1H3, value.var = "Eh")
+d_
