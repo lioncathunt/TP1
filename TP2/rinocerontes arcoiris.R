@@ -3,6 +3,29 @@ library(tidyverse)
 
 # Actividad 1: Cinéticas sencillas ----------------------------------------
 
+#a)Escriba un código de R que permita calcular una lista de valores de [R], para diferentes tiempos (guardados también en una lista). Use k = 1, dt = 0.001 y [R]_0 = 100.
+
+
+#b)¿Cómo se puede escribir una variable extra que exprese la velocidad, v, a cada tiempo t, para la reacción de primer orden? Incluya dicha variable en el código.
+
+#Represente gráficamente [R] vs t y ln [R] vs t.
+
+
+#c)Represente gráficamente v vs [R].
+
+
+#d)Repita el procedimiento, pero para una reacción de orden 2 y grafique v vs [R]^2 y 1/[R] vs t.
+
+#e)Compare los gráficos que se obtienen cambiando "dt" a 0.01 y 0.1. ¿Qué ocurre si aumenta "dt" a un valor relativamente grande, por ejemplo, 2?
+
+#al aumentar dt de 0.001 a 0.01 el intervalo de tiempo para el que calculamos las concentraciones de R pasa de 5 segundos a 50 segundos. En los primeros 5 se observa lo mismo que en
+#el grafico con dt=0.001 un decaimiento constante de la concentracion de R, sin embargo luego la concentracion de R disminuye hasta 0 y se mantiene constante. lo mismo ocurre con 
+#dt=0.1 solo que analizando los primeros 500 segundos de reaccion.
+
+#cuando dt es un valor demasiado grande como 2 la ecuacion que calcula la concentracion de R a partir del tiempo transcurrido deja de tener sentido ya que solo funciona para diferencias peque;as de tiempo 
+#si dt es mayor que 1 la diferencia de R sera mayor que R misma y negativa lo cual lleva a que cada iteracion de R sea el mismo valor alternando entre negativo y positivo.
+
+
 k<-(1)
 dt<-0.001
 R0<-100
@@ -115,6 +138,18 @@ ggplot(data = data_list_TP2_act_1c,
 
 # Actividad 2: Cinética enzimática ----------------------------------------
 
+#a) Cree un \textit{script} de R en el que se calcule, para una reacción enzimática, las variables: tiempo, $[S]$, $[E]$, $[ES]$, $[P]$ y $\frac{d[P]}{dt}$. Utilice las siguientes condiciones iniciales: $[E]_0 = 1$; $[S]_0 = 10000$; $dt = 0.00005$; $k_f = 1$; $k_r = 1$; $k_p = 0.1$. ¿Qué ocurre si fija $dt = 0.0002$?
+  
+  
+#b) Grafique $[P]$ vs. $t$. ¿Cuánto tiempo deberá pasar para que la concentración de sustrato sea el $95\%$ de la concentración inicial? ¿Cuánto es dicho tiempo si $k_p = 10$?
+  
+#calculado en el script  
+  
+#c) Grafique $[S]$ vs. $T$ ($k_p = 0.1$). ¿A qué se debe que haya una disminución inicial rápida de $S$ y luego un decrecimiento más lento?
+
+#la disminucion inicial rapida de S ocurre ya que el sustrato se une rapidamente con la enzima, una vez que esta se satura la disminucion de S ocurre tan rapido como la transproimacion de ES
+#a E+P con una Kp=10 esta ultima transformacion ocurre mas rapido por lo que la disminucion de S luego de la saturacion es mas veloz.
+
 E0=1
 S0=1000
 dt=0.00005
@@ -206,7 +241,23 @@ ggplot(data=data_list_TP2_A2,
 
 # Actividad 3: Reacciones oscilatorias ------------------------------------
 
+#a) Cree un \textit{script} de R en el que se represente el tiempo $t$, $[A]$, $[B]$, $[D]$, $[E]$, $[X]$ y $[Y]$. Realice $10000$ cálculos
+#con las siguientes condiciones iniciales: $[A]_0 = 1$; $[B]_0 = 3$; $dt = 0.005$; $k_1 = k_2 = k_3 = k_4 = 1$. Evalúe la variación de las 
+#concentraciones de todas las especies en función del tiempo. ¿Oscila la concentración de alguna de las especies?
 
+#no, bajo estas condiciones ninguna de las especies oscila.
+  
+#b) Mantenga las $[A]$ y $[B]$ en valores constantes (en valores $1$ y $3$, respectivamente).
+#¿Qué se observa en este caso? ¿Qué condición debería tener el sistema para mantener $[A]$ y $[B]$ constantes?
+
+#en este caso se observa como la concentracion de X y de Y oscilan. Para que la concentracion de A y de B sean constantes es necesario que la canditdad de A y B que se consumen
+#se repongan a la misma velocidad.
+  
+#c) Grafique [X] vs. [Y]. ¿Qué característica se destaca del gráfico? ¿Cómo se modifica el gráfico si ajusta $[X]_0$ y $[Y]_0$ a $1$ y $0.5$? ¿Y si los ajusta a $2$ y $10$? ¿$2$ y $2$? ¿$1$ y $4$?
+
+#La principal caracteristica del grafico es que es ciclico. al modificar las concentraciones iniciales cambia el punto desde el que comienza el grafico pero vemos como la proporcion 
+#entre Y y X se ajusta hasta formar nuevamente el ciclo.
+  
 A0=1
 B0=3
 dt=0.005
