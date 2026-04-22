@@ -1,6 +1,7 @@
 library(tidyverse)
 
-#Actividad 1: Cineticas sencillas
+
+# Actividad 1: Cinéticas sencillas ----------------------------------------
 
 k<-(1)
 dt<-0.001
@@ -110,8 +111,9 @@ ggplot(data = data_list_TP2_act_1c,
 #Probar con dt=2
 
 
-#Actividad 2: Cinetica enzimatica
 
+
+# Actividad 2: Cinética enzimática ----------------------------------------
 
 E0=1
 S0=1000
@@ -202,7 +204,8 @@ ggplot(data=data_list_TP2_A2,
   theme_bw()
 
 
-#Actividad 3: Reacciones oscilatorias
+# Actividad 3: Reacciones oscilatorias ------------------------------------
+
 
 A0=1
 B0=3
@@ -233,11 +236,11 @@ Y_list<-c(Y0)
 
 for (i in 1:10000) {
   dA=-k1*A*dt
-  A=A+dA
+  #A=A+dA
   A_list<-c(A_list, A)
   
   dB=-k3*B*X*dt
-  B=B+dB
+ #B=B+dB 
   B_list<-c(B_list, B)
   
   dD=k3*B*X*dt
@@ -304,7 +307,7 @@ ggplot(data=data_list_TP2_A3,
   theme_bw()
 
 
-#grafica X vs Y
+#Gráfica X vs Y
 
 ggplot(data=data_list_TP2_A3,
        aes(x=X_list,
