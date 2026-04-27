@@ -262,7 +262,7 @@ fig_135_enhanced_0.1 <- plot_ly(x = ~d_h1h2_135_enhanced_0.1, y = ~d_h1h3_135_en
     )
   )
 fig_135_enhanced_0.1
-
+#El estado de transicion se encuentra en x=0.9555556, y=0.9555556 y tiene una energia de -1.588305. Con una resolucion de 0.01Angstrom
 # Grafico 90 --------------------------------------------------------------
 
 z_matrix90<-acast(output_HHH90_orca_TP3, dH1H2 ~ dH1H3, value.var = "Eh")
@@ -306,6 +306,104 @@ fig_90<-plot_ly(x=~d_h1h2_90,
   )
 fig_90
 
+
+# Grafico 90 enhanced -----------------------------------------------------
+Output_HHH90_enhanced <- read_excel("Resultados orca HHH90 enhanced/Output_HHH90_enhanced.xlsx", 
+                                    col_types = c("numeric", "numeric", "numeric"))
+View(Output_HHH90_enhanced)
+
+z_matrix90_enhanced<-acast(Output_HHH90_enhanced, dH1H2 ~ dH1H3, value.var = "Eh")
+d_h1h2_90_enhanced<-as.numeric(colnames(z_matrix90_enhanced))
+d_h1h3_90_enhanced<-as.numeric(rownames(z_matrix90_enhanced))
+
+fig_contour_90_enhanced<-plot_ly(
+  x= ~d_h1h2_90_enhanced,
+  y= ~d_h1h3_90_enhanced,
+  z= ~z_matrix90_enhanced,
+  type = "contour",
+  color = "jet",
+  autocontour= T,
+  line= list(smoothing=0.85, colour="white", width=0.5)
+) %>% 
+  layout(
+    title="SEP (90°) H + H-H -> H-H + H",
+    scene = list(
+      xaxis = list(title = "R(H-H, ˚A)"),
+      yaxis = list(title = "R(H-H, ˚A)"),
+      zaxis = list(title = "Energıa (E)")
+    )
+  )
+
+fig_contour_90_enhanced
+
+fig_90_enhanced<-plot_ly(x=~d_h1h2_90_enhanced,
+                y=~d_h1h3_90_enhanced,
+                z=~z_matrix90_enhanced) %>% 
+  add_surface(
+    colorscale="jet",
+    colorbar = list(title = "Energıa (E)")
+  ) %>%
+  layout(
+    title = "SEP (90°) H + H-H -> H-H + H",
+    scene = list(
+      xaxis = list(title = "R(H-H, ˚A)"),
+      yaxis = list(title = "R(H-H, ˚A)"),
+      zaxis = list(title = "Energıa (E)")
+    )
+  )
+fig_90_enhanced
+
+
+
+# Grafico 90 enhanced 0.1Angstrom -----------------------------------------
+
+Output_HHH90_enhanced_0.1 <- read_excel("Resultados orca HHH90 enhanced 0.1/Output_HHH90_enhanced_0.1.xlsx", 
+                                        col_types = c("numeric", "numeric", "numeric"))
+View(Output_HHH90_enhanced_0.1)
+
+
+z_matrix90_enhanced_0.1<-acast(Output_HHH90_enhanced_0.1, dH1H2 ~ dH1H3, value.var = "Eh")
+d_h1h2_90_enhanced_0.1<-as.numeric(colnames(z_matrix90_enhanced_0.1))
+d_h1h3_90_enhanced_0.1<-as.numeric(rownames(z_matrix90_enhanced_0.1))
+
+fig_contour_90_enhanced_0.1<-plot_ly(
+  x= ~d_h1h2_90_enhanced_0.1,
+  y= ~d_h1h3_90_enhanced_0.1,
+  z= ~z_matrix90_enhanced_0.1,
+  type = "contour",
+  color = "jet",
+  autocontour= T,
+  line= list(smoothing=0.85, colour="white", width=0.5)
+) %>% 
+  layout(
+    title="SEP (90°) H + H-H -> H-H + H",
+    scene = list(
+      xaxis = list(title = "R(H-H, ˚A)"),
+      yaxis = list(title = "R(H-H, ˚A)"),
+      zaxis = list(title = "Energıa (E)")
+    )
+  )
+
+fig_contour_90_enhanced_0.1
+
+fig_90_enhanced_0.1<-plot_ly(x=~d_h1h2_90_enhanced_0.1,
+                         y=~d_h1h3_90_enhanced_0.1,
+                         z=~z_matrix90_enhanced_0.1) %>% 
+  add_surface(
+    colorscale="jet",
+    colorbar = list(title = "Energıa (E)")
+  ) %>%
+  layout(
+    title = "SEP (90°) H + H-H -> H-H + H",
+    scene = list(
+      xaxis = list(title = "R(H-H, ˚A)"),
+      yaxis = list(title = "R(H-H, ˚A)"),
+      zaxis = list(title = "Energıa (E)")
+    )
+  )
+fig_90_enhanced_0.1
+
+#El estado de transicion se encuentra en x=1.027778, y=1.027778 y tiene una energia de -1.553435. Con una resolucion de 0.01Angstrom
 
 #minimum barrier 180°:-1.594396  135°: -1.588611  90°: -1.558607
 
