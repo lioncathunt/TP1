@@ -407,7 +407,12 @@ fig_90_enhanced_0.1
 
 # Barrera de energia ------------------------------------------------------
 
+#We take the difference in energy between the area where the reactants are far apart and the transition state location to get the energy barrier
+#minimum barrier 180°=-1.596486+1.621643  135°= -1.588305+1.621493  90°=-1.553435+1.62088
 
-#minimum barrier 180°=1.596517-1.596486  135°= 1.588395-1.588305  90°=1.553529-1.553435
+cat("energy barrier for 180°=",-1.596486+1.621643," for 135°=",-1.588305+1.621493," and for 90°=",-1.553435+1.62088,"In Eh")
+cat("energy barrier for 180°=",(-1.596486+1.621643)*627.509474," for 135°=",(-1.588305+1.621493)*627.509474," and for 90°=",(-1.553435+1.62088)*627.509474,"In Kcal*mol^-1")
+cat("energy barrier for 180°=",(-1.596486+1.621643)*2625.499639," for 135°=",(-1.588305+1.621493)*2625.499639," and for 90°=",(-1.553435+1.62088)*2625.499639,"In KJ*mol^-1")
 
-cat("energy barrier for 180°=",1.596517-1.596486," for 135°=",1.588395-1.588305," and for 90°=",1.553529-1.553435)
+#Asi comprobamos que la barrera mas baja de energia es la correspondiente al angulo de 180°. Si comparamos los valores obtenidos con este metodo
+#con los de la bibliografia los primeros son un poco superiores pero similares.
