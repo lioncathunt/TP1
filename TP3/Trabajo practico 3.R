@@ -405,5 +405,9 @@ fig_90_enhanced_0.1
 
 #El estado de transicion se encuentra en x=1.027778, y=1.027778 y tiene una energia de -1.553435. Con una resolucion de 0.01Angstrom
 
-#minimum barrier 180°:-1.594396  135°: -1.588611  90°: -1.558607
+# Barrera de energia ------------------------------------------------------
 
+
+#minimum barrier 180°=1.596517-1.596486  135°= 1.588395-1.588305  90°=1.553529-1.553435
+
+cat("energy barrier for 180°=",1.596517-1.596486," for 135°=",1.588395-1.588305," and for 90°=",1.553529-1.553435)
