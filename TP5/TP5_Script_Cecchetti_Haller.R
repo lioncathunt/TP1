@@ -58,7 +58,7 @@ K1<-0.025; K2<-0.25; K3<-1; K4<-7.5E-6; K5<-1000; K6<-1.99
 
 
 t_max<-200
-X_t0=c(200,20,2000)
+X_t0=c(0,1,0)
 
 #Change vectors
 v_1<-c(-1,1,0)
@@ -72,7 +72,7 @@ reactions<-list(v_1,v_2,v_3,v_4,v_5,v_6)
 #dgen=c(-1, 0, 1, -1, 0, 0);dtem=c(1, -1, 0, 0, 0, 0);dstruct=c(0, 0, 0, -1, 1, -1)
 
 
-save_interval<-30
+save_interval<-20
 
 t<-0; iteration<-1
 
