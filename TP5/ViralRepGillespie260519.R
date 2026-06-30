@@ -13,15 +13,15 @@ tem_list<-c(tem0); gen_list<-c(gen0); struct_list<-c(struct0); t_list<-c(t0); v_
 tem<-tem0; gen<-gen0; struct<-struct0; t<-t0
 
 for(i in 1:5000){
-  dtem=(K1*gen-K2*tem)
+  dtem=(K1*gen-K2*tem)*dt
   tem=tem+dtem
   tem_list<-c(tem_list,tem)
   
-  dgen=(K3*tem-K1*gen-K4*gen*struct)
+  dgen=(K3*tem-K1*gen-K4*gen*struct)*dt
   gen=gen+dgen
   gen_list<-c(gen_list,gen)
   
-  dstruct=(K5*tem-K6*struct-K4*gen*struct)
+  dstruct=(K5*tem-K6*struct-K4*gen*struct)*dt
   struct=struct+dstruct
   struct_list<-c(struct_list,struct)
   
@@ -194,7 +194,7 @@ run_ssa <- function(run_id) {
 
 all_runs <- pblapply(1:1202, function(i) {
   run_ssa(run_id = i)
-})
+})  
 
 all_runs <- pblapply(1:1202, function(i) {
   filename <- paste0("ssa_result_run_", i, ".csv")
