@@ -154,7 +154,7 @@ par(mfrow = c(1, 2))
 
 # CINETICA (log k1 vs sqrt(mu))
 
-# Combinamos los datos para calcular la pendiente real total
+# Combinamos los datos para calcular la pendiente 
 datos_cinetica <- data.frame(
   x = c(serie_naoh$sqrt_mu, serie_sal$sqrt_mu),
   y = c(serie_naoh$log_k1, serie_sal$log_k1)
@@ -186,7 +186,7 @@ pend_fig4   <- coef(ajuste_fig4)["x"]
 
 plot(NULL, xlim = c(0.07, 0.16), ylim = c(1.75, 1.90),
      xlab = expression(sqrt(mu)), ylab = expression(log ~ K[c]),
-     main = "Figura 3: Anomalía del Equilibrio")
+     main = "Figura 3: Comportamiento en el Equilibrio")
 
 points(serie_sal$sqrt_mu, serie_sal$log_Kc,pch = 21, bg = "white", col = "black", cex = 1.2)
 points(serie_naoh$sqrt_mu, serie_naoh$log_Kc, pch = 4, col = "darkblue", lw = 2, cex = 1.2 )
