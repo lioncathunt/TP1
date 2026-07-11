@@ -1,0 +1,19 @@
+Muestra&silicio(uM)\\\hline
+PW1&<15           \\\hline
+PW1&<15           \\\hline
+PW1&<15           \\\hline
+PW2&<15           \\\hline
+PW2&<15           \\\hline
+PW2&<15           \\\hline
+EN1&4.189349112   \\\hline
+EN1&13.18343195   \\\hline
+EN1&6.023668639   \\\hline
+EN2&-2.970414201  \\\hline
+EN2&-3.562130178  \\\hline
+EN2&-4.153846154  \\\hline
+ES1&19.75147929   \\\hline
+ES1&40.46153846   \\\hline
+ES1&3.183431953   \\\hline
+ES2&3.183431953   \\\hline
+ES2&36.9112426    \\\hline
+ES2&33.36094675   \\\hline

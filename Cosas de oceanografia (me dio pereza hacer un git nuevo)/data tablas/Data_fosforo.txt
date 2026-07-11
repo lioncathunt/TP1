@@ -1,0 +1,19 @@
+Muestra&fosforo(uM)\\\hline
+PW1&2.3            \\\hline
+PW1&2.9            \\\hline
+PW1&2.5            \\\hline
+PW2&2.5            \\\hline
+PW2&2.2            \\\hline
+PW2&-0.1           \\\hline
+EN1&3.1            \\\hline
+EN1&2.5            \\\hline
+EN1&22.7           \\\hline
+EN2&36.2           \\\hline
+EN2&4.2            \\\hline
+EN2&3.8            \\\hline
+ES1&2              \\\hline
+ES1&3.6            \\\hline
+ES1&2.4            \\\hline
+ES2&3.7            \\\hline
+ES2&3.4            \\\hline
+ES2&1.7            \\\hline

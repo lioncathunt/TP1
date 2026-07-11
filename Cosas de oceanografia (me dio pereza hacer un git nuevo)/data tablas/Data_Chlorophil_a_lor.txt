@@ -1,0 +1,7 @@
+Muestra&Chl_a_lor(mg/L)&Feofitina(mg/L)\\\hline
+PW1&0.15&1.54                          \\\hline
+PW2&0.29&1.74                          \\\hline
+EN1&0.65&3.7                           \\\hline
+EN2&1.29&4.48                          \\\hline
+ES1&0.92&3.95                          \\\hline
+ES2&1.58&5.13                          \\\hline

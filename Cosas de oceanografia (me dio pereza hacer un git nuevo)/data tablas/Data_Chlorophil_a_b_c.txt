@@ -1,0 +1,7 @@
+Muestra&Chl_a(mg/L)&Chl_b(mg/L)&Chl_c(mg/L)\\\hline
+PW1&0.79&1.79&0.49                         \\\hline
+PW2&0.83&0.83&0.42                         \\\hline
+EN1&1.77&0.59&0.46                         \\\hline
+EN2&1.87&0.88&0.58                         \\\hline
+ES1&1.8&1.18&0.56                          \\\hline
+ES2&2.01&1.76&0.65                         \\\hline

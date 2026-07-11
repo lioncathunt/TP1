@@ -1,0 +1,13 @@
+Muestra&nitrito(uM)&amonio(uM)\\\hline
+PW1&0.3&-11.79\\\hline
+PW1&0.3&-4.99\\\hline
+PW2&0.34&-14.96\\\hline
+PW2&0.25&-13.9\\\hline
+EN1&0.65&-11.5\\\hline
+EN1&0.74&-11.7\\\hline
+EN2&0.81&-18.1\\\hline
+EN2&0.81&-22.2\\\hline
+ES1&1.07&17.5\\\hline
+ES1&1.02&-3.2\\\hline
+ES2&1.21&-3.1\\\hline
+ES2&0.98&-8.8\\\hline
