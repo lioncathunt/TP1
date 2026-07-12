@@ -1,5 +1,6 @@
 library(tidyverse)
 library(readr)
+library(outliers)
 
 
 # Data --------------------------------------------------------------------
@@ -146,3 +147,77 @@ data_Chlorophil_a_lor<-Cuantificacion_nutrientes_bonito_xlsx_tidy_data |>
   drop_na("Chl_a_lor(mg/L)")
 View(data_Chlorophil_a_lor)
 write.csv(data_Chlorophil_a_lor, "data tablas/Data_Chlorophil_a_lor.csv")
+
+data_odis<-Cuantificacion_nutrientes_bonito_xlsx_tidy_data |> 
+  select("Muestra", "Oxigeno disuelto(mg/L)","%Sat O2") |> 
+  drop_na("Oxigeno disuelto(mg/L)")
+View(data_odis)
+write.csv(data_odis,"data tablas/Data_Odis.csv")
+
+
+
+# Q test ------------------------------------------------------------------
+
+
+##Silicio ----------------------------------------------------------------
+
+
+data_s_EN <- data_silicio %>% filter(Muestra=="EN1"| Muestra=="EN2" & `silicio(uM)`> 0)
+data_s_EN
+dixon.test(data_s_EN$`silicio(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+
+data_s_ES <- data_silicio %>% filter(Muestra=="ES1"| Muestra=="ES2" & `silicio(uM)`> 0)
+data_s_ES
+dixon.test(data_s_ES$`silicio(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+
+## Nitritos ----------------------------------------------------------------
+
+data_nitritos_PW <- data_nitritos %>% filter(Muestra=="PW1"| Muestra=="PW2")
+data_nitritos_PW
+dixon.test(data_nitritos_PW$`nitrito(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+data_nitritos_EN <- data_nitritos %>% filter(Muestra=="EN1"| Muestra=="EN2")
+data_nitritos_EN
+dixon.test(data_nitritos_EN$`nitrito(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+data_nitritos_ES <- data_nitritos %>% filter(Muestra=="ES1"| Muestra=="ES2")
+data_nitritos_ES
+dixon.test(data_nitritos_ES$`nitrito(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+
+## Fosforo -----------------------------------------------------------------
+
+
+data_fosforo_PW <- data_fosforo %>% filter(Muestra=="PW1"| Muestra=="PW2" & `fosforo(uM)`> 0)
+data_fosforo_PW
+dixon.test(data_fosforo_PW$`fosforo(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+data_fosforo_EN <- data_fosforo %>% filter(Muestra=="EN1" & `fosforo(uM)`> 0 & `fosforo(uM)`< 20.0 | Muestra=="EN2" & `fosforo(uM)`> 0 & `fosforo(uM)`< 20.0)
+data_fosforo_EN
+dixon.test(data_fosforo_EN$`fosforo(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+data_fosforo_ES <- data_fosforo %>% filter(Muestra=="ES1" & `fosforo(uM)`> 0 & `fosforo(uM)`< 20.0 | Muestra=="ES2" & `fosforo(uM)`> 0 & `fosforo(uM)`< 20.0)
+data_fosforo_ES
+dixon.test(data_fosforo_ES$`fosforo(uM)`,type = 0, opposite = F, two.sided = TRUE)
+
+
+##Oxigeno disuelto y saturacion -------------------------------------------------------------------------
+
+#EN
+data_odis_PW <- data_odis %>% filter(Muestra=="PW1"| Muestra=="PW2")
+data_odis_PW
+dixon.test(data_odis_PW$`Oxigeno disuelto(mg/L)`,type = 0, opposite = F, two.sided = TRUE)
+
+#ES
+data_odis_EN <- data_odis %>% filter(Muestra=="EN1"| Muestra=="EN2")
+data_odis_EN
+dixon.test(data_odis_EN$`Oxigeno disuelto(mg/L)`,type = 0, opposite = F, two.sided = TRUE)
+
+#PW
+data_odis_ES <- data_odis %>% filter(Muestra=="ES1"| Muestra=="ES2")
+data_odis_ES
+dixon.test(data_odis_ES$`Oxigeno disuelto(mg/L)`,type = 0, opposite = F, two.sided = TRUE)
+
+
