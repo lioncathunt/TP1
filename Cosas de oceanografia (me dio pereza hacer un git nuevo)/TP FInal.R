@@ -30,7 +30,8 @@ Curva_calibracion_nitritos<-ggplot(subset(Cuantificacion_nutrientes_bonito_xlsx_
   geom_point(size=3, color="cyan3") +
   labs(title="Curva de calibración nitritos")+
   xlab(expression("Concentración"~(mu*mol~L^-1)))+
-  ylab("Absorbancia")
+  ylab("Absorbancia") +
+  theme_bw()
 
 
 Curva_calibracion_nitritos
@@ -51,7 +52,8 @@ Curva_calibracion_amonio<-ggplot(subset(Cuantificacion_nutrientes_bonito_xlsx_ca
   geom_point(size=3, color="cyan3") +
   labs(title="Curva de calibración amonio")+
   xlab(expression("Concentración"~(mu*mol~L^-1)))+
-  ylab("Absorbancia")
+  ylab("Absorbancia") +
+  theme_bw()
 
 
 Curva_calibracion_amonio
@@ -73,7 +75,8 @@ Curva_calibracion_fosforo<-ggplot(subset(Cuantificacion_nutrientes_bonito_xlsx_c
   geom_point(size=3, color="cyan3") +
   labs(title="Curva de calibración fosforo")+
   xlab(expression("Concentración"~(mu*mol~L^-1)))+
-  ylab("Absorbancia")
+  ylab("Absorbancia") +
+  theme_bw()
 
 
 Curva_calibracion_fosforo
@@ -95,7 +98,8 @@ Curva_calibracion_silicio<-ggplot(subset(Cuantificacion_nutrientes_bonito_xlsx_c
   geom_point(size=3, color="cyan3") +
   labs(title="Curva de calibración silicio")+
   xlab(expression("Concentración"~(mu*mol~L^-1)))+
-  ylab("Absorbancia")
+  ylab("Absorbancia") +
+  theme_bw()
 
 
 Curva_calibracion_silicio
